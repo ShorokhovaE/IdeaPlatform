@@ -19,7 +19,7 @@ import java.util.List;
 
 public class Solution {
 
-    private static final String PATH_TO_JSON_FILE = "/Users/elenasorohova/Desktop/java/Solution/src/main/resources/tickets.json";
+    private static final String PATH_TO_JSON_FILE = "src/main/resources/tickets.json";
 
     public static void main(String[] args) {
 
@@ -51,7 +51,7 @@ public class Solution {
                 minutesOnWayList.add(timeOnWayInMinutes(departureDateTime, arrivalDateTime));
             }
 
-            System.out.println("среднее время полета между городами Владивосток\n" +
+            System.out.println("Среднее время полета между городами Владивосток\n" +
                     "и Тель-Авив (в минутах): " + averageTimeOnWayInMinutes(minutesOnWayList));
 
             System.out.println("90-й процентиль времени полета между городами\n" +
